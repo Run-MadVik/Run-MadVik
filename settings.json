@@ -1,0 +1,49 @@
+{
+    "workbench.colorTheme": "GitHub Dark Default",
+    "diffEditor.renderSideBySideInlineBreakpoint": 9,
+    "diffEditor.renderSideBySide": false,
+    "editor.accessibilitySupport": "off",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "isort.args": [
+        "--profile",
+        "black"
+    ],
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "explorer.confirmDelete": false,
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "cody.commandCodeLenses": true,
+    "[sql]": {
+        "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
+    },
+    "git.openRepositoryInParentFolders": "always",
+    "codeium.enableConfig": {
+        "*": true,
+        "pip-requirements": true
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "python.createEnvironment.trigger": "off",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "editor.cursorBlinking": "phase",
+    "editor.fontFamily": "Jetbrains Mono, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.smoothScrolling": true,
+    "editor.mouseWheelZoom": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.minimap.enabled": false,
+    // "workbench.editor.showTabs": "none",
+
+    // Add custom vscode styling and customizations
+    "vscode_custom_css.imports": [
+        "file:///Users/vikhyatgupta/custom-vscode.css",
+        "file:///Users/vikhyatgupta/vscode-script.js"
+    ],
+    "workbench.statusBar.visible": false,
+    "chat.commandCenter.enabled": false
+}
